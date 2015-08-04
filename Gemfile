@@ -22,12 +22,14 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'soundcloud'
 
 gem 'rails_12factor'
+gem 'therubyracer'
 
+gem 'uglifier'
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano', :group => :development
