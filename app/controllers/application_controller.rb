@@ -1,8 +1,6 @@
 class ApplicationController < ActionController::API
 
    # skip_before_filter :verify_authenticity_token   # this may not be necessary
-
-
   before_filter :cors_preflight_check
   after_filter :cors_set_access_control_headers
 

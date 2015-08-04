@@ -15,7 +15,6 @@ Dotenv.load
   #     :password => ENV['password']
   #     })
   #     @songs = client.get('/tracks', :q => params[:search], :limit => 10)
-
   #     # render json: @songs
   #     # @songs.each do |song|
   #       # p song.uri
@@ -23,8 +22,8 @@ Dotenv.load
   #       # p song.id
   #       # p "*" * 80
   #     # end
-
   # end
+
   def edit
       @playlist_id = params[:id]
       @user_id = params[:user_id]
@@ -33,9 +32,6 @@ Dotenv.load
       p "*" * 100
       render :json => {user: @user, playlist: @playlist}
   end
-
-  ###test code not implemented yet
-
 
   def create
   # p params[:track_id]
