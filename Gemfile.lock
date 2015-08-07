@@ -199,6 +199,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   jquery-turbolinks
+  libv8
   pg
   pry-rails
   rails (= 4.2.0)

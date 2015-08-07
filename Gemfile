@@ -30,6 +30,7 @@ gem 'uglifier'
 
 # Use unicorn as the app server
 gem 'unicorn'
+gem 'libv8'
 
 # Deploy with Capistrano
 # gem 'capistrano', :group => :development
