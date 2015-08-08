@@ -22,6 +22,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'soundcloud'
 
 gem 'rails_12factor'
+gem 'libv8'
 gem 'therubyracer'
 
 gem 'uglifier'
@@ -30,7 +31,6 @@ gem 'uglifier'
 
 # Use unicorn as the app server
 gem 'unicorn'
-gem 'libv8'
 
 # Deploy with Capistrano
 # gem 'capistrano', :group => :development
