@@ -200,7 +200,7 @@ DEPENDENCIES
   jquery-rails
   jquery-turbolinks
   libv8
-  pg
+  pg (~> 0.18.2)
   pry-rails
   rails (= 4.2.0)
   rails-api

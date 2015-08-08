@@ -12,7 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'resque'
 
-gem 'pg'
+gem 'pg', '~> 0.18.2'
 gem 'dotenv'
 gem 'pry-rails'
 
